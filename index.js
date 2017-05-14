@@ -10,6 +10,7 @@ const numTvShows = 1000
 
 mongoose.connect('mongodb://localhost/shows');
 
+//fetch tv shows from tvmaze and save into mongoDB
 app.get('/all', (req, res, next) => {
     async.timesLimit(numTvShows, 2, (i, callback) => {
         setTimeout(function(){
@@ -43,6 +44,7 @@ app.get('/all', (req, res, next) => {
          return next()
 })
 
+//get all shows that id is equal to genre 
 app.get('/shows/:id', (req, res, next) => {
     Shows.find({'details.genres': {$in: [req.params.id]}},function(err, shows){
         res.json(shows)
