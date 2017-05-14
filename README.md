@@ -18,8 +18,10 @@ Installation
 Documentation
 ------------
 
-    $ Endpoint /all to fetch all tv shows and save into mongoDB
-    $ Endpoint /shows/:id where id is a genre  
+  ### Endpoints
+  
+    1.- /all to fetch all tv shows and save into mongoDB
+    2.- /shows/:id where id is a genre and get all tv shows from a genre 
     
   ### Genres
   
