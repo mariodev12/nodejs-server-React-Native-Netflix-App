@@ -43,7 +43,7 @@ External components
 Tips and tricks
 ---------------
 
-If you want to know more about my motivation to make this you can find my Youtube video [SNodeJS - Netflix App: Servidor NodeJS con MongoDB para React Native](https://www.youtube.com/watch?v=dVIuxEDhAyw)
+If you want to know more about my motivation to make this you can find my Youtube video [NodeJS - Netflix App: Servidor NodeJS con MongoDB para React Native](https://www.youtube.com/watch?v=dVIuxEDhAyw)
 
 Thanks
 ------
